@@ -1,0 +1,19 @@
+{
+  "name": "node-telegram-steam-2fa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ReactiioN1337/node-telegram-steam-2fa.git",
+  "author": "ReactiioN <reactiion@haze-productions.com>",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "bluebird": "^3.5.3",
+    "fs-extra": "^7.0.1",
+    "ramda": "^0.26.1",
+    "steam-totp": "^2.1.0",
+    "telegraf": "^3.26.0"
+  },
+  "scripts": {
+    "pm2": "pm2 start . --name \"telegram-steam-2fa\""
+  }
+}
